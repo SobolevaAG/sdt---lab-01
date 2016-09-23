@@ -1,7 +1,14 @@
 #include <stdio.h>
+#include <iostream>
 
-int main(int argc, char **argv)
+int main()
 {
-	printf("hello world\n");
-	return 0;
+printf("Введите 2 числа\n");
+int a;
+int b;
+std::cin>>a;
+std::cin>>b;
+std::endl;
+std::cout<<a-b<<std::endl;
 }
+
